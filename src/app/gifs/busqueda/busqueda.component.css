@@ -1,0 +1,19 @@
+
+.main__input{
+    margin-top: 15px;
+    height: 30px;
+    padding: 5px;
+    width: 90%;
+}
+@media screen and (min-width: 600px){
+  
+    .main__input{
+        /* margin-top: 15px; */
+        /* display: inline-flex; */
+        /* height: 1fr; */
+        /* padding: 5px; */
+        width: 90%;
+        
+    }
+
+}

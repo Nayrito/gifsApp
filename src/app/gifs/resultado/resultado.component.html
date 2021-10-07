@@ -1,0 +1,12 @@
+<div class="grid">
+  <ng-container *ngFor="let item of resultados">
+    <div class="grid-item">
+      <img [src]="item.images.downsized_medium.url" alt="">
+      <div>
+        <span>{{item.title}}</span>
+      </div>
+      
+    </div>
+    
+  </ng-container>
+</div>

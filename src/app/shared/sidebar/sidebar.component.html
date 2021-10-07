@@ -1,0 +1,11 @@
+<div class="sidebar">
+    <h1>Gifs-App</h1>
+     <hr>
+    <ul class="sidebar__list" *ngFor="let item of historial">
+      <li class="sidebar__item" (click) = "buscar(item)">
+        {{item |titlecase}}
+      </li>
+      
+    </ul>
+  
+  </div>
